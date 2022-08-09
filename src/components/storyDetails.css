@@ -1,0 +1,13 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.details {
+	border: solid 1px black;
+	border-radius: 5px;
+	box-shadow: 10px 10px gray;
+	padding: 1%;
+	margin-top: 2%;
+	background-color: white;
+}
