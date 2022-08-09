@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SelectStories from "../components/SelectStories";
 import StoryDetails from "../components/StoryDetails";
+import FindStory from "../components/FindStory";
 
 const Container = () => {
 	const [stories, setStories] = useState([]);
@@ -39,6 +40,7 @@ const Container = () => {
 				onStorySelected={onStorySelected}
 			/>
 			{selectedStory ? <StoryDetails story={selectedStory} /> : null}
+			<FindStory stories={stories} />
 		</>
 	);
 };

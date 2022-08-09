@@ -1,0 +1,7 @@
+.storiesList {
+	display: flex;
+}
+
+.storiesList > li {
+	width: 30%;
+}
